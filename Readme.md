@@ -20,7 +20,7 @@ then generate app based on this instruction:
 
 then:
 ```
-$ cd todo-reactapp
+$ cd contacts-app
 ```
 start the app (dev-server http://localhost:1841/):
 ```
