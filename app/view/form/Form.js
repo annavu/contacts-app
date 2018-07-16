@@ -1,5 +1,10 @@
 Ext.define('MyApp.view.form.Form', {
   extend: 'Ext.window.Window',
+
+  requires: [
+    'MyApp.view.form.FormController',
+
+],
   
   id: 'confirm',
   border: 0,
@@ -70,7 +75,7 @@ Ext.define('MyApp.view.form.Form', {
           text: 'Save',
           itemId: 'saveButton',
           handler: function() {
-              
+            // form.updateRecord(record); use this method
           }
       }, {
           text: 'Cancel',
