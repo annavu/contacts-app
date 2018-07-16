@@ -1,4 +1,4 @@
-# MyApp
+# ContactsApp
 
 (build in progress)
 
@@ -6,7 +6,7 @@ the task is to implement app where you can store, add, edit and remove contacts
 
 * project created with EXT JS
 
-***
+
 ## Setup
 
 to create this project I installed Sencha CMD and Ext JS:
